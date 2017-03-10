@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="author" content="丫丫">
+    <title>登录</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body{
+            background-color: lightgray;
+        }
+        section {
+            height: 50px;
+            background-image: url(image/milogin/sprite.gif);
+            background-repeat: no-repeat;
+            background-size: 50px;
+            background-position: right top;
+        }
+
+        .container {
+            margin-top: 5px;
+            margin-left: calc( (100% - 75px)/2);
+            width: 320px;
+            height: 100px;
+            position: relative;
+            
+        }
+
+        .container img {
+            width: 50px;
+            height: 50px;
+        }
+
+       .container p{
+           margin-left: -10px;
+       
+       }
+  
+       .shurukuang{
+            width: 250px;
+            height: 90px;
+            margin-left: 35px;
+           border-radius: 9px;
+       } 
+       button{
+            width: 250px;
+            height: 35px;
+            margin-left: 35px;
+           border-radius: 20px;
+           background-color: dodgerblue;
+       }
+       .img{
+           margin-top: 5px;
+           margin-left: 35px;
+           width: 250px;
+            height: 50px;
+           display: flex;
+           justify-content: space-around;
+       }
+       .img img{
+           width: 40px;
+           height: 40px;
+           border-radius: 50%;
+       }
+    </style>
+</head>
+
+<body>
+    <section>
+    </section>
+    <div class="container">
+        <img src="image/milogin/touch-icon.png" alt="">
+        <p>小米账号登录</p>
+    </div>
+     
+    <div class="shurukuang">
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">账户:</span>
+            <input type="text" class="form-control" placeholder="邮箱/手机号/小米账户" aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon">密码:</span>
+            <input type="password" class="form-control" placeholder="密码" aria-label="Amount (to the nearest dollar)">
+            <span class="input-group-addon glyphicon glyphicon-eye-open"></span>
+        </div>
+    </div>
+    <!--lijidenglu-->
+   <button>立即登录</button>
+    <p class="text-center" style="color: gray;margin-top: 20px;"><em style="text-decoration: line-through;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</em>
+         &nbsp;其他方式登录&nbsp;
+     <em style="text-decoration: line-through;">&#x3000;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</em></p>
+
+   <div class="line"></div>
+   <div class="img">
+       <img src="image/milogin/qq.png" alt="">
+       <img src="image/milogin/weixin.jpg"alt="">
+       <img src="image/milogin/weibo.jpg"alt="">
+   </div>
+    <center>注册小米账户&nbsp;&nbsp;|&nbsp;&nbsp;  忘记密码？</center>
+    <center style="margin-top: 10px;">简体&nbsp;&nbsp;|&nbsp;&nbsp;繁体&nbsp;&nbsp;|&nbsp;&nbsp;English&nbsp;&nbsp;|&nbsp;&nbsp;常见问题</center>
+
+     <center><p style="margin-top: 15px;font-size: 13px;">小米公司版权所有-京ICP备1046444
+         <img src="image/milogin/ghs.png" alt="">京公网安备11010802020134号-京ICP证110507号</p></center>
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
