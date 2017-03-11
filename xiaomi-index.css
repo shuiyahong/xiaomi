@@ -1,0 +1,58 @@
+#top{
+    height: 50px;
+    background-color: #EF5B00;
+}
+/*input {
+    width: 180px;
+    border-radius: 5px;
+}*/
+button{
+    border: none;
+    background-color: #EF5B00;
+    color: white;
+}
+/*商城早报*/
+.center{
+    height: 40px;    
+    padding: 5px;
+    height: 100%;
+}
+h2{
+    font-size: 18px;
+    text-align: left;
+}
+
+
+/*底部导航栏*/
+.navbar-fixed-bottom{
+    height: 50px;
+    background-color:lightsalmon ;
+}
+main{
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main a:nth-child(1){
+    margin-left:10px;
+}
+.main a:nth-child(4){
+    margin-right:15px;
+}
+
+.main img{
+    width: 25px;
+    height: 25px; 
+    border-radius: 5px;
+     margin-top:5px;
+}
+
+#one{
+    height:50px;
+    width: 320px;
+}
+
+.main a:hover{
+      color: orangered;
+}
