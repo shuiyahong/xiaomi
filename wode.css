@@ -1,0 +1,55 @@
+body{
+    background-color: lightgray;
+}
+/*.circle{
+     height: 80px;  
+}*/
+main{
+    height: 50px;
+    background-color: #F27F08;
+}
+.content{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.hr{
+    height: 5px;
+    background-color: white;
+  /*border: 3px solid lightgray;*/
+}
+.qq div{
+    background-color: white;
+}
+.qq #left{
+    float: left;
+}
+.qq #right{
+    float: right;
+}
+.qq .one{
+    height: 50px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.qq .two{
+    height: 50px;
+    padding: 10px;
+    margin-top: 30px;
+}
+.qq .three{
+    height:50px;
+    padding: 10px;
+    margin-top: 5px;
+}
+.qq .four{
+    height:50px;
+    padding: 10px;
+    margin-top: 20px;
+}
+#left{
+    margin:3px 30px 20px 10px;
+  
+}
