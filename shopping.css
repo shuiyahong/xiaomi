@@ -1,0 +1,90 @@
+main div{
+     background-color: lightgray;
+}
+.shopping{
+    height: 40px;
+    padding: 5px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+button{
+   width:60px;
+   height:30px;
+   border-radius:5px;
+   border: 1px solid gray;
+   background-color: gray;
+   float:right;
+
+}
+.shopping p{
+    margin-top: 10px;
+}
+.container{
+    height: 40px;
+   padding-top: 5px;
+}
+.one{
+   
+    display: flex;
+    justify-content: space-between;
+}
+.one img{
+    width: 150px;
+}
+.frist span:nth-child(1){
+    margin-left: 40px;
+}
+.frist span:nth-child(2){
+    margin-left: 80px;
+}
+
+.two{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.two img{
+    width: 150px;
+}
+.second span:nth-child(1){
+    margin-left: 30px;
+}
+.second span:nth-child(2){
+    margin-left: 70px;
+}
+
+ .three{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.three img{
+    width: 150px;
+}
+.third span:nth-child(1){
+    margin-left: 30px;
+}
+.third span:nth-child(2){
+    margin-left: 70px;
+}
+
+.four{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.four img{
+    width: 150px;
+}
+.fourth span:nth-child(1){
+    margin-left: 30px;
+}
+.fourth span:nth-child(2){
+    margin-left: 100px;
+}
+     
+    
+  
+
