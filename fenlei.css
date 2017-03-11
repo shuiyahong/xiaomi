@@ -1,0 +1,48 @@
+.navbar{
+   background-color: #F0F0F0;
+   height: 60px;
+   /*text-align: center;*/
+   display: flex;
+   justify-content: space-between;
+   padding-top: 10px;
+   
+}
+.navbar span{
+    font-size: 20px;
+    color: gray;
+}
+
+.tututu{
+    background-color: whitesmoke;
+    margin-bottom: 10px;
+}
+.tututu #shangzi {
+    padding-top: 10px;
+    width: 340px;
+    text-align: center;
+    color: black;
+}
+.tututu .fentu img{
+    width: 50px;
+    height: 50px;
+}
+.tututu .fentu div{
+    margin: 0px;
+    background-color: white;
+   width: 80px;
+   margin: 10px;
+}
+.tututu .fentu{
+    display: flex;
+     flex-flow: wrap;
+   
+}
+
+
+.dibu{
+    background-color: whitesmoke;
+     display: flex;
+     justify-content: space-between;
+     /*line-height: 30px;*/
+     padding: 5px;
+}
